@@ -1,0 +1,120 @@
+﻿/* general reset*/
+body{
+	margin:0;
+	color:#000;
+	position:relative;
+	font:14px Arial, Helvetica, sans-serif;
+	min-width:960px;
+}
+img{border-style:none;} 
+a{
+	text-decoration:none;
+	color:#1c20d0;
+}
+a:hover{text-decoration:underline;}
+input,
+textarea,
+select{
+	font:100% "Trebuchet MS", Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+}
+form,
+fieldset{
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+input[type=submit]:hover{cursor:pointer;}
+html,body,.body-form,fieldset{
+	height: 100%;
+	margin: 0;
+}
+#wrapper {
+	overflow:hidden;
+	min-height:100%;
+	/*background:#1b5478 url(../images/bg-wrapper.gif) repeat-x;*/
+}
+.w1 {
+	overflow:hidden;
+	width:960px;
+	margin:0 auto;
+	padding-bottom: 231px; /* footer height */
+}
+
+
+/* content */
+#content{
+	float:left;
+	width:820px;
+	padding:19px 0 0 3px;
+}
+#content h2{
+	margin:0;
+	font:32px/34px Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+#content p{margin:0 0 22px;}
+#content .archive-list{
+	overflow:hidden;
+	margin:0;
+	list-style:none;
+	width:820px;
+	padding:0;
+}
+#content .archive-list li{
+	overflow:hidden;
+	border-top:1px solid #000;
+	width:820px;
+	vertical-align:top;
+}
+#content .archive-list .household{
+	display:inline-block;
+	vertical-align:middle;
+	width:160px;
+	letter-spacing:1px;
+	font:18px/20px Arial, Helvetica, sans-serif;
+}
+*+html #content .archive-list .household{
+	display:inline;
+	width:164px;
+}
+#content .archive-list .title{
+	display:inline-block;
+	vertical-align:middle;
+	width:458px;
+	padding:33px 20px 36px 0;
+}
+*+html #content .archive-list .title{
+	display:inline;
+	width:462px;
+}
+#content .archive-list .title h3{
+	margin:0 0 -4px;
+	letter-spacing:1px;
+	font:30px/32px Arial, Helvetica, sans-serif;
+}
+*+html #content .archive-list .title h3 {margin:0 0 -3px;}
+#content .archive-list .title h3 a{color:#000;}
+
+#content .archive-list .title2{
+	display:inline-block;
+	vertical-align:middle;
+	width:158px;
+	padding:33px 10px 36px 0;
+}
+*+html #content .archive-list .title2{
+	display:inline;
+	width:162px;
+}
+
+#content .archive-list .author{font:12px/14px Arial, Helvetica, sans-serif;}
+#content .archive-list .link-more{
+	display:inline-block;
+	vertical-align:middle;
+	font:16px/18px Arial, Helvetica, sans-serif;
+	color:#000;
+	text-decoration:underline;
+}
+#content .archive-list .link-more:hover{text-decoration:none;}
+*+html #content .archive-list .link-more{display:inline;}
